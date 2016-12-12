@@ -1,6 +1,6 @@
 cd xypic
 
-WORK_DIR=/usr/local/texlive/2016basic/texmf-local
+WORK_DIR=/usr/local/texlive/texmf-local
 
 echo "Step 2. Macros"
 MACRO_DIR=$WORK_DIR/tex/generic/xypic/
@@ -53,3 +53,6 @@ mkdir -p $DOC_DIR
 cp doc/* $DOC_DIR
 
 sudo mktexlsr
+
+rm -rf xypic
+rm -rf xypic.zip 

@@ -4,7 +4,7 @@ This is a build tool for [xypic](http://tug.org/applications/Xy-pic/Xy-pic.html)
 
 ## Requirement
 
-- [BasicTeX](http://tug.org/mactex/morepackages.html)
+- [MacTeX](http://tug.org/mactex/morepackages.html)
 
 ## Usage
 
